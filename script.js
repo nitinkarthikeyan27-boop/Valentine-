@@ -52,10 +52,36 @@ button {
 #yesBtn {
   background-color: #ff4d6d;
   color: white;
+  const yesBtn = document.getElementById("yesBtn");
+const noBtn = document.getElementById("noBtn");
+const response = document.getElementById("response");
+
+yesBtn.addEventListener("click", () => {
+  response.innerHTML = "I love you ❤️ Happy Valentine’s Day 🥹🌹";
+});
+
+noBtn.addEventListener("mouseover", () => {
+  noBtn.style.position = "absolute";
+  noBtn.style.left = Math.random() * 80 + "%";
+  noBtn.style.top = Math.random() * 80 + "%";
+});
 }
 
 #noBtn {
   background-color: #ddd;
+  const yesBtn = document.getElementById("yesBtn");
+const noBtn = document.getElementById("noBtn");
+const response = document.getElementById("response");
+
+yesBtn.addEventListener("click", () => {
+  response.innerHTML = "I love you ❤️ Happy Valentine’s Day 🥹🌹";
+});
+
+noBtn.addEventListener("mouseover", () => {
+  noBtn.style.position = "absolute";
+  noBtn.style.left = Math.random() * 80 + "%";
+  noBtn.style.top = Math.random() * 80 + "%";
+});
 }
 
 #response {
