@@ -59,6 +59,7 @@ button {
 }
 
 #response {
+  response.innerHTML = "I love you ❤️ Happy Valentine’s Day 🥹🌹";
   margin-top: 20px;
   font-size: 18px;
   color: #ff4d6d;
